@@ -57,6 +57,24 @@
       <artifactId>json</artifactId>
       <version>20190722</version>
     </dependency>
+  
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.9</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>ca.ibodrov.concord</groupId>
+      <artifactId>testcontainers-concord-shaded</artifactId>
+      <version>0.0.29</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>org.aoju</groupId>
+      <artifactId>bus-crypto</artifactId>
+      <version>3.5.7</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
